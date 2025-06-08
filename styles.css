@@ -570,10 +570,10 @@ textarea {
 /* Recommend Section  */
 .recommend-section {
   width: 1080px;
-  height: 696px;
+  height: 630px;
   margin-top: 20px;
   margin-left: 10%;
-  padding: 10px;
+  /* padding: 10px; */
   background-color: white; 
 }
 
@@ -601,7 +601,7 @@ textarea {
 }
 
 .recommend-product-assets > img {
-  width: 150px;
+  width: 140px;
   height: 150px;
 }
 
@@ -620,21 +620,64 @@ textarea {
 }
 
 
-
-
-
-
-
-
 /* Services Section */
 .service-section {
   width: 1080px;
   height: 256px;
-  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1); */
   margin-top: 5px;
   margin-left: 10%;
-  border: 1px solid;
 }
+
+.service-section > h2 {
+  margin-bottom: 20px;
+}
+
+.services-boxes {
+  display: flex;
+  gap: 30px;
+}
+
+.service-box-assets > img {
+  width: 238px;
+  height: 120px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.services-box {
+  width: 240px;
+  height: 200px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  position: relative;
+
+}
+
+.service-box-details {
+  padding: 18px;
+}
+
+.service-box-details > p {
+  font-size: 16px;
+}
+
+.service-icon {
+  background-color: #D1E7FF;
+  color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #FFFFFF;
+  position: absolute;
+  top: 46%;
+  right: 5%;
+}
+
 
 
 /* Country Section */
