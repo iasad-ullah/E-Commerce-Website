@@ -1,7 +1,10 @@
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+
 }
 
 body {
@@ -142,17 +145,17 @@ select, option {
   width: 200px;
 }
 
-.sidebar-links a:first-child {
+
+.sidebar-links a:hover {
   background-color: rgb(182, 247, 225);
-  padding: 8px;
-  border-radius: 4px;
 }
-
-
 
 .sidebar-links a {
   text-decoration: none;
   color: black;
+  padding: 6px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
 }
 
 .bg-img {
@@ -185,6 +188,14 @@ select, option {
   padding: 10px 20px;
   font-size: 14px;
   font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.img-btn:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+  background-color: blue;
+  color: white;
 }
 .user-contacts {
   /* border: 1px solid; */
@@ -367,7 +378,7 @@ select, option {
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
   margin-left: 10%;
-  border: 1px solid;
+  /* border: 1px solid; */
 }
 
 .inquiry-section {
@@ -464,9 +475,9 @@ footer {
 }
 
 .block-items-product {
- width: 223px;
- height: 127px;
- padding-left: 6px;
+ width: 200px;
+ height: 128px;
+ padding: 18px;
  border: 1px solid #ccc;
  display: flex;
  justify-content: space-between;
@@ -486,4 +497,32 @@ footer {
 .price {
   font-size: 20px;
   color: #555;
+}
+
+.block-section2-left-side {
+  background-image: url("assets/useful images/block-section2-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* transform: scaleX(-1); */
+  width: 280px;
+  height: 254px;
+}
+
+.block-items-section2 {
+  display: flex ;
+}
+
+.block-section2-left-side > h2 {
+  padding: 30px 0 10px 20px;
+  font-size: 22px;
+}
+
+.block-section2-left-side > button {
+  margin-left: 30px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: white;
+  font-size: 1.1rem;
 }
